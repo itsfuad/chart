@@ -54,7 +54,7 @@ ax.set_xlim(0, 9)
 ax.set_ylim(0.001, 10000)
 
 # Create scatter plot with a single color for all points
-ax.scatter(pH, metal_load, color='blue', label='All Sites', alpha=0.8, s=30)
+ax.scatter(pH, metal_load, color='blue', label='Sampling Sites', alpha=0.8, s=30)
 
 # Add grid lines that divide the plot into 9 regions
 ax.axvline(x=3, color='gray', linestyle='-', alpha=0.7)
